@@ -10,6 +10,7 @@
     font-size: 1.2rem
 }
 
+/* For mobile: From 500+ in with and 400+ in height */
 @media (min-width: 500px) and (min-height: 400px){
     .Burger {
         width:350px;
@@ -17,6 +18,7 @@
     }
 }
 
+/* For mobile in portrait From 500+ in with and 401+ in height */
 @media (min-width: 500px) and (min-height: 401px){
     .Burger {
         width:450px;
@@ -24,6 +26,7 @@
     }
 }
 
+/* For desktop: From 1000+ in with and 700+ in height */
 @media (min-width: 1000px) and (min-height: 700px){
     .Burger {
         width:700px;
