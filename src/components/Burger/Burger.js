@@ -6,9 +6,12 @@ const burger = (props) => {
     // Object.keys() returns an array containing the object's keys
     let transformedIngredients = Object.keys(props.ingredients) //['salad', 'bacon', 'cheese']
         .map(igKey => {
-            return [...Array(props.ingredients[igKey])].map((_, i) => {
-                return <BurgerIngredient key={igKey + i} type={igKey} />
-            });
+            console.log([...Array(props.ingredients[igKey])])
+            return [...Array(props.ingredients[igKey])]
+                .map((_, i) => {
+                    console.log(i)
+                    return <BurgerIngredient key={igKey + i} type={igKey} />
+                });
         })
         .reduce((arr, el) => {
             return arr.concat(el)
@@ -16,7 +19,6 @@ const burger = (props) => {
     if (transformedIngredients.length === 0) {
         transformedIngredients = <p> Please start adding ingredients! </p>
     }
-    console.log(transformedIngredients)
 
     return (
         <div className={classes.Burger}>
