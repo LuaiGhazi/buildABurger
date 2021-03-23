@@ -1,5 +1,4 @@
-import React, { Component } from 'react'
-import Orders from '../../containers/Orders/Orders';
+import React from 'react'
 import classes from './Order.module.css'
 
 const order = (props) => {
