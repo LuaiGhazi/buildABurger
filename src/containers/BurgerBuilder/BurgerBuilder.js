@@ -9,7 +9,6 @@ import Spinner from '../../components/UI/Spinner/Spinner'
 import withErrorHandler from '../../hoc/withErrorHandler/withErrorHandler'
 import * as actions from '../../store/actions/index'
 import axios from '../../axios-orders'
-import burger from '../../components/Burger/Burger'
 
 
 // Used a state based component here because it'll be a stateful component
