@@ -6,7 +6,7 @@
 * [Features](#features)
 * [Technologies](#technologies)
 * [Getting Started](#getting-started)
-* [Future Work](#future-work)
+
 
 ## General info
 This project is a React App that allows users to create accounts, place orders, and review past transactions.
